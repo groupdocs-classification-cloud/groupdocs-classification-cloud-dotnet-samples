@@ -7,9 +7,9 @@ namespace GroupDocs.Classification.Cloud.Examples.CSharp
 {
 	class Common
 	{
-		public static string MyAppSid = Common.MyAppSid;
-		public static string MyAppKey = Common.MyAppKey;
-        public static string StoraegeName = Common.StoraegeName;
+        public static string MyAppSid;
+		public static string MyAppKey;
+        public static string StoraegeName;
 
         public static void UploadSampleTestFiles()
 		{
@@ -43,11 +43,10 @@ namespace GroupDocs.Classification.Cloud.Examples.CSharp
 				if (!response.FileExist.IsExist.Value)
 				{
 					var fileName = Path.GetFileName(file);
-					var relativeDirPath = relativeFilePath.Replace(fileName, string.Empty).Trim(Path.DirectorySeparatorChar);
-					var fileStream = File.Open(file, FileMode.Open);
-
-					storageApi.PutCreate(new GroupDocs.Storage.Cloud.Sdk.Model.Requests.PutCreateRequest() { File = fileStream, Path = relativeDirPath, Storage= Common.StoraegeName });
-					fileStream.Close();
+                    using (var fileStream = File.Open(file, FileMode.Open))
+                    {
+                        storageApi.PutCreate(new GroupDocs.Storage.Cloud.Sdk.Model.Requests.PutCreateRequest() { File = fileStream, Path = relativeFilePath, Storage = Common.StoraegeName });
+                    }
 				}
 			}
 

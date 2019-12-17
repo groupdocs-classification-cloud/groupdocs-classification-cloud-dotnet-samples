@@ -24,11 +24,11 @@ To use GroupDocs.Classification Cloud .NET SDK you need to register an account w
 
 From the command line:
 
-	nuget install GroupDocs.Classification Cloud
+	nuget install GroupDocs.Classification-Cloud
 
 From Package Manager:
 
-	PM> Install-Package GroupDocs.Classification Cloud
+	PM> Install-Package GroupDocs.Classification-Cloud
 
 From within Visual Studio:
 

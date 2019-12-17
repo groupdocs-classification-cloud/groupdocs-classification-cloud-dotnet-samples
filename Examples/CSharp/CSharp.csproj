@@ -38,17 +38,11 @@
     <StartupObject>GroupDocs.Classification.Cloud.Examples.CSharp.RunExamples</StartupObject>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aspose.Storage.Cloud.Sdk, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Aspose.Storage-Cloud.18.3.0\lib\net20\Aspose.Storage.Cloud.Sdk.dll</HintPath>
-    </Reference>
     <Reference Include="GroupDocs.Classification.Cloud.Sdk, Version=19.3.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\GroupDocs.Classification-Cloud.19.3.0\lib\net2\GroupDocs.Classification.Cloud.Sdk.dll</HintPath>
     </Reference>
     <Reference Include="GroupDocs.Storage.Cloud.Sdk, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\GroupDocs.Storage-Cloud.18.3.0\lib\net20\GroupDocs.Storage.Cloud.Sdk.dll</HintPath>
-    </Reference>
-    <Reference Include="GroupDocs.Viewer.Cloud.Sdk, Version=18.7.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
-      <HintPath>..\packages\GroupDocs.Viewer-Cloud.18.7.0\lib\net20\GroupDocs.Viewer.Cloud.Sdk.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.10.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
