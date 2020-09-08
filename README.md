@@ -12,7 +12,8 @@ This repository contains [Examples](Examples) projects for [GroupDocs.Classifica
 </p>
 
 ## How to use the SDK?
-The complete source code is available in this repository folder. You can either directly use it in your project via source code or get [NuGet distribution](https://www.nuget.org/packages/GroupDocs.Classification-Cloud/) (recommended). For more details, please visit our [documentation website](https://docs.groupdocs.cloud/display/classificationcloud/Available+SDKs).
+
+The complete source code is available in this repository folder. You can either directly use it in your project via source code or get [NuGet distribution](https://www.nuget.org/packages/GroupDocs.Classification-Cloud/) (recommended). For more details, please visit our [documentation website](https://docs.groupdocs.cloud/classification/).
 
 ### Prerequisites
 
@@ -42,11 +43,4 @@ From within Visual Studio:
 - .NET Framework 2.0 or later
 - [Json.NET](https://www.nuget.org/packages/Newtonsoft.Json/)
 
-## Resources
-
-+ **Website:** [www.GroupDocs.cloud](http://www.GroupDocs.cloud)
-+ **Product Home:** [GroupDocs.Classification Cloud SDK for .NET](https://products.groupdocs.cloud/classification/net)
-+ **Download:** [Download GroupDocs.Classification Cloud SDK for .NET](https://www.nuget.org/packages/GroupDocs.Classification-Cloud/)
-+ **Documentation:** [GroupDocs.Classification Cloud SDK Documentation](https://docs.groupdocs.cloud/display/classificationcloud/Home)
-+ **Free Support:** [GroupDocs.Classification Cloud SDK Free Support Forum](https://forum.groupdocs.cloud/c/classification)
-+ **Blog:** [GroupDocs.Classification Cloud SDK Blog](https://blog.groupdocs.cloud/category/classification/)
+[Home](https://www.groupdocs.cloud/) | [Product Page](https://products.groupdocs.cloud/classification/net) | [Docs](https://docs.groupdocs.cloud/classification/) | [Demos](https://products.groupdocs.app/classification/family) | [API Reference](https://apireference.groupdocs.cloud/classification/) | [Blog](https://blog.groupdocs.cloud/category/classification/) | [Free Support](https://forum.groupdocs.cloud/c/classification) | [Free Trial](https://purchase.groupdocs.cloud/trial)
